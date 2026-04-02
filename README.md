@@ -1,8 +1,12 @@
-# Fitbud AI 🧠💪
+# 🧠 Fitbud AI — Solving the Last Mile Problem in AI Fitness
 
-Your AI-powered fitness companion that helps you stay consistent with safe, personalized workout and nutrition guidance.
+Most AI fitness tools generate correct plans.
 
----
+But users don’t follow them.
+
+Fitbud is an experiment in solving this gap—focusing on **trust, tone, and usability**, not just model accuracy.
+
+
 
 ## 🚀 Features
 - Personalized fitness plans
@@ -33,3 +37,53 @@ git clone https://github.com/your-username/fitbud-ai.git
 cd fitbud-ai
 npm install
 npm run dev
+
+## ⚙️** System Flow**
+
+User Input → Prompt Engineering → LLM (Gemini API) → Guardrails → Structured Output → User
+
+### **Design Principles:**
+- Keep responses actionable, not verbose
+- Maintain supportive tone
+- Ensure safety via guardrails
+
+## 🧠 **Key Product Decision**
+
+### **Constraint:**
+- Limited time (rapid prototyping)
+- No custom dataset
+- Need high-quality output
+
+###** Options:**
+- Fine-tuned model (too slow)
+- Rule-based system (too rigid)
+- API-based LLM (fast, flexible)
+
+### **Decision:**
+Chose Gemini API to prioritize speed and iteration.
+
+### **Tradeoff:**
+- Faster build vs higher cost
+- Flexibility vs control
+
+### **Future Direction**:
+Move toward hybrid architecture (classifier + smaller models) to optimize cost and scale.
+
+## 💬 Example Interaction
+
+**Input:**
+"Create a 5-day muscle gain plan"
+
+**Output:**
+[Paste real output]
+
+### Why this works:
+- Structured
+- Easy to follow
+- Supportive tone
+
+## 📌 Key Learnings
+
+- Model accuracy ≠ user satisfaction
+- Tone significantly impacts engagement
+- Fast iteration with APIs is critical early-stage
