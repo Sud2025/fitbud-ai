@@ -87,3 +87,9 @@ Move toward hybrid architecture (classifier + smaller models) to optimize cost a
 - Model accuracy ≠ user satisfaction
 - Tone significantly impacts engagement
 - Fast iteration with APIs is critical early-stage
+
+## 🛡️ AI Governance & Risk
+
+- [Governance & Risk Log](docs/ai-governance-risk-log.md)
+
+
