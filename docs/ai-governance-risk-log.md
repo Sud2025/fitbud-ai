@@ -49,3 +49,10 @@ Total Risks Identified: X
 Tested: X
 Mitigated: X
 High Risk Open Issues: X
+
+docs/
+├── problem.md
+├── solution.md
+├── architecture.md
+├── metrics.md
+├── ai-governance-risk-log.md
