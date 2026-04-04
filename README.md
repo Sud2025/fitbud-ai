@@ -21,6 +21,35 @@ Fitbud is an experiment in solving this gap—focusing on **trust, tone, and usa
 - Prompt-based guardrails for safety
 - Context-aware responses
 
+## 🏗️ Architecture
+
+Fitbud AI is currently implemented as a lightweight, prompt-based system leveraging modern LLM capabilities.
+
+- 🧠 **LLM Layer**  
+  Built using **Google AI Studio** powered by the **Gemini 1.5 Pro (or latest available) model**, enabling natural language understanding and structured response generation.
+
+- ⚙️ **Backend Logic (Prompt-Based)**  
+  The system operates without a traditional backend. Core behavior is defined through carefully designed prompts that enforce:
+  - Safety guardrails  
+  - Structured outputs  
+  - Context-aware follow-ups  
+
+- 🛡️ **Governance Layer**  
+  A prompt-engineered control layer ensures:
+  - Safe and non-extreme fitness advice  
+  - Transparency in AI interaction  
+  - Inclusion of disclaimers for medical guidance  
+
+- 🖥️ **User Interface**  
+  Currently operates within **Google AI Studio (prototype environment)**  
+  Future scope includes a **Streamlit-based interactive UI**
+
+---
+
+### 🔄 System Flow (Simplified)
+
+User Input → Prompt Engineering Layer → Gemini LLM → Guardrail Filtering → Structured Response → User
+
 ---
 
 ## 🛠 Tech Stack
