@@ -6,6 +6,17 @@ But users don’t follow them.
 
 Fitbud is an experiment in solving this gap—focusing on **trust, tone, and usability**, not just model accuracy.
 
+## 🎯 Problem
+
+Most AI fitness tools generate technically correct plans, but fail in real-world usage:
+
+- Generic recommendations lack true personalization  
+- Users drop off due to lack of motivation and clarity  
+- AI systems often produce repetitive or unsafe suggestions  
+- Limited transparency reduces user trust  
+
+The result: **high-quality outputs, low real-world adherence**
+
 
 ## 🚀 Features
 - Personalized fitness plans
@@ -100,10 +111,10 @@ Move toward hybrid architecture (classifier + smaller models) to optimize cost a
 ## 💬 Example Interaction
 
 **Input:**
-"Create a 5-day muscle gain plan"
+"My height is 176 CM and weight is 75 Kg. I am a male, aged 39 years. Is this ok?"
 
 **Output:**
-[Paste real output]
+[Hey there! Based on the numbers you shared, you're doing great.If we look at your Body Mass Index (BMI), it comes out to about 24.2. That puts you right in the "normal" or healthy weight range (which is 18.5 to 24.9).Just keep in mind that as an AI, I'm here to help guide you, but I'm not a doctor! BMI is a handy quick-check tool, but it doesn't measure things like muscle mass or body fat percentage. If you feel energetic and healthy, those are the best indicators.]
 
 ### Why this works:
 - Structured
