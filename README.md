@@ -4,7 +4,7 @@ Most AI fitness tools generate correct plans.
 
 But users don’t follow them.
 
-Fitbud is an experiment in solving this gap—focusing on **trust, tone, and usability**, not just model accuracy.
+Fitbud is a trust-first AI fitness assistant focused on solving the last-mile problem of user adherence.
 
 ## 🎯 Problem
 
